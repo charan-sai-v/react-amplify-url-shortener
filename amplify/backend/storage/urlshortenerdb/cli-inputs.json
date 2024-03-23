@@ -1,0 +1,10 @@
+{
+  "resourceName": "urlshortenerdb",
+  "tableName": "urlshortenerdb",
+  "partitionKey": {
+    "fieldName": "short_url",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

@@ -1,0 +1,35 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-urlshortenerapp-dev-214614-authRole",
+      "UnauthRoleArn": "arn:aws:iam::619153171235:role/amplify-urlshortenerapp-dev-214614-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::619153171235:role/amplify-urlshortenerapp-dev-214614-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-urlshortenerapp-dev-214614-deployment",
+      "UnauthRoleName": "amplify-urlshortenerapp-dev-214614-unauthRole",
+      "StackName": "amplify-urlshortenerapp-dev-214614",
+      "StackId": "arn:aws:cloudformation:us-east-1:619153171235:stack/amplify-urlshortenerapp-dev-214614/5820d5e0-e79e-11ee-81eb-0a97e6c28fc5",
+      "AmplifyAppId": "d2cxvumkdbdtlo"
+    },
+    "categories": {
+      "function": {
+        "urlshortenerfunction": {
+          "deploymentBucketName": "amplify-urlshortenerapp-dev-214614-deployment",
+          "s3Key": "amplify-builds/urlshortenerfunction-4132356d487268744751-build.zip"
+        }
+      },
+      "storage": {
+        "urlshortenerdb": {}
+      },
+      "api": {
+        "urlshortenerapi": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2cxvumkdbdtlo",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
